@@ -1,0 +1,17 @@
+GraphQL is a query language created by Facebook to replace the REST approch.
+
+ It has one single endpoint for all kinds of requests, and the method has to be a post request. GraphQL works with types and fields, 
+ and it's really powerful since it provides all or just the needed data.
+
+ "Send a GraphQL query to your API and get exactly what you need, nothing more and nothing less."
+
+ - A schema describes the shape of your data graph. It defines a set of types with fields that are populated from your back-end data stores.
+
+
+
+ // Packages :
+ - graphql package : build a valid schemas
+ - koa-graphql : graphql package that will be used as a middleware and allow us to point on schema and resolvers
+
+
+ // Power of GraphQL : Return not only values but functions
